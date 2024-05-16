@@ -137,10 +137,10 @@ if __name__ == '__main__':
     clip_model, preprocess = clip.load('RN50')
     clip_model.eval()
     
-    # all_dataset = ["caltech101", 'dtd', 'eurosat', 'fgvc', 'food101', #'imagenet', 
-    #                'oxford_flowers', 'oxford_pets', 'stanford_cars', 'sun397', 'ucf101']
-    all_dataset = ['imagenet_n']
-    k_shot = [8]
+    all_dataset = ["caltech101", 'dtd', 'eurosat', 'fgvc', 'food101', 'imagenet', 
+                   'oxford_flowers', 'oxford_pets', 'stanford_cars', 'sun397', 'ucf101']
+    # all_dataset = ['imagenet_n']
+    k_shot = [1, 2, 4, 8, 16]
 
     data_path = '/home/ce/data'
     for set in all_dataset:

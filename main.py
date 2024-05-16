@@ -101,7 +101,7 @@ def SimNL(cfg, cache_keys, cache_values, val_features, val_labels, test_features
             loss1 = Loss(final_logits, target)
             loss2 = adaptive_reranking_loss(image_features, new_clip_weights.t(), target)
             
-            loss = loss1 + loss2 + 8 * consistency_loss# + loss3 #+ loss4
+            loss = loss1 + loss2 + 8 * consistency_loss
 
             acc = cls_acc(final_logits, target)
             correct_samples += acc / 100 * len(final_logits)

@@ -238,7 +238,7 @@ class ImageNet_N():
 
         for label, items in split_by_label_dict.items():
             imgs = imgs + random.sample(items, num_shots)
-            noise_prob = 0.125
+            noise_prob = 0.1 # label flipping probability
             for i in range(num_shots):
                 if random.random() < noise_prob:
                     targets = targets + [random.choice([x for x in range(1000) if x != label])]
