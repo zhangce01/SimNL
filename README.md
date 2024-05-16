@@ -1,10 +1,8 @@
-# DualAdapter
-
-[![arXiv](https://img.shields.io/badge/arXiv-1111.11111-b31b1b.svg)](https://arxiv.org/abs/2401.07457)[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# SimNL
 
 ## 👀Introduction
 
-This repository contains the code for our paper `Negative Yields Positive: Unified Dual-Path Adapter for Vision-Language Models`. [[Paper](https://arxiv.org/abs/1111.11111)]
+This repository contains the code for our paper `Enhancing Vision-Language Few-Shot Adaptation with Negative Learning`.
 
 ![](fig/qualitative.png)
 
@@ -24,7 +22,7 @@ Please follow the following file provided by  [Tip-Adapter](https://github.com/g
 
 You can extract the features by running ``` CUDA_VISIBLE_DEVICES=0 python extract_features.py```.
 
- After running, you can get all the image features from tran/val/test set, as well as the positive/negative textual features in ```caches/[dataset_name]```.
+After running, you can get all the image features from tran/val/test set, as well as the positive/negative textual features in ```caches/[dataset_name]```.
 
 ## 📦Usage
 
@@ -35,16 +33,4 @@ Here, `dataset_name` should be one of `[caltech101, dtd, eurosat, fgvc, food101,
 ## 🙏Acknowledgements
 
 Our codebase is adapted from [TIP-Adapter](https://github.com/gaopengcuhk/Tip-Adapter/), [CLIP](https://github.com/openai/CLIP/tree/main/clip), [APE](https://github.com/yangyangyang127/APE), and [CuPL](https://github.com/sarahpratt/CuPL). We thank the authors for releasing their code!
-
-## 📧Contact
-
-If you have any questions, please  contact at [cezhang@cs.cmu.edu](mailto:cezhang@cs.cmu.edu).
-
-## 📌 BibTeX & Citation
-
-If you find this code useful, please consider citing our work:
-
-```bibtex
-To be updated.
-```
 
