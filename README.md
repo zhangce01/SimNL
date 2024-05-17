@@ -16,7 +16,7 @@ We test our codebase with PyTorch 1.12.1 with CUDA 11.6. Please install correspo
 
 #### 2. Dataset
 
-Please follow ```DATASET.md``` to download all the 11 datasets we used for experiments.
+Please follow ```DATASET.md``` to download all the 11 datasets we used for experiments. We adapt this from [CoOp](https://github.com/KaiyangZhou/CoOp/blob/main/DATASETS.md).
 
 #### 3. Extracting Few-Shot Features
 
