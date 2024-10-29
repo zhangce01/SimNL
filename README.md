@@ -1,4 +1,9 @@
-# SimNL
+# [WACV 2025] SimNL
+
+[![Website](https://img.shields.io/badge/Project-Website-green)](https://github.com/zhangce01/SimNL)
+[![arXiv](https://img.shields.io/badge/arXiv-1111.11111-red)](http://arxiv.org/abs/1111.11111)
+[![Conference](https://img.shields.io/badge/WACV-2025-blue)]([https://neurips.cc/](https://wacv2025.thecvf.com/))
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 👀Introduction
 
