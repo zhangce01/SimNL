@@ -39,3 +39,20 @@ Here, `dataset_name` should be one of `[caltech101, dtd, eurosat, fgvc, food101,
 
 Our codebase is adapted from [Tip-Adapter](https://github.com/gaopengcuhk/Tip-Adapter/), [CLIP](https://github.com/openai/CLIP/tree/main/clip), [APE](https://github.com/yangyangyang127/APE), and [CuPL](https://github.com/sarahpratt/CuPL). We thank the authors for releasing their code!
 
+## 📧Contact
+
+If you have any questions, please  contact at [cezhang@cs.cmu.edu](mailto:cezhang@cs.cmu.edu).
+
+## 📌 BibTeX & Citation
+
+If you find this code useful, please consider citing our work:
+
+```bibtex
+@article{zhang2024negative,
+  title={Negative Yields Positive: Unified Dual-Path Adapter for Vision-Language Models},
+  author={Zhang, Ce and Stepputtis, Simon and Sycara, Katia and Xie, Yaqi},
+  journal={arXiv preprint arXiv:2403.12964},
+  year={2024}
+}
+```
+
