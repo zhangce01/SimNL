@@ -1,7 +1,7 @@
 # [WACV 2025] SimNL
 
 [![Website](https://img.shields.io/badge/Project-Website-green)](https://github.com/zhangce01/SimNL)
-[![arXiv](https://img.shields.io/badge/arXiv-1111.11111-red)](http://arxiv.org/abs/1111.11111)
+[![arXiv](https://img.shields.io/badge/arXiv-2403.12964-red)](http://arxiv.org/abs/2403.12964)
 [![Conference](https://img.shields.io/badge/WACV-2025-blue)]([https://neurips.cc/](https://wacv2025.thecvf.com/))
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -48,8 +48,8 @@ If you have any questions, please  contact at [cezhang@cs.cmu.edu](mailto:cezhan
 If you find this code useful, please consider citing our work:
 
 ```bibtex
-@article{zhang2024negative,
-  title={Negative Yields Positive: Unified Dual-Path Adapter for Vision-Language Models},
+@article{zhang2024enhancing,
+  title={Enhancing Vision-Language Few-Shot Adaptation with Negative Learning},
   author={Zhang, Ce and Stepputtis, Simon and Sycara, Katia and Xie, Yaqi},
   journal={arXiv preprint arXiv:2403.12964},
   year={2024}
