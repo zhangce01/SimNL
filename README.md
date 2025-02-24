@@ -51,7 +51,7 @@ If you find this code useful, please consider citing our work:
 @article{zhang2024enhancing,
   title={Enhancing Vision-Language Few-Shot Adaptation with Negative Learning},
   author={Zhang, Ce and Stepputtis, Simon and Sycara, Katia and Xie, Yaqi},
-  booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
   pages={5905-5915}
   year={2025}
 }
